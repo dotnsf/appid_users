@@ -2,7 +2,7 @@
 
 ## Overview
 
-Sample application which create IBM AppID user via API.
+Sample application which create&list IBM AppID user via API.
 
 
 ## Files
@@ -11,6 +11,8 @@ Sample application which create IBM AppID user via API.
 |- app.js         : web application for test purpose.
 |
 |- create_user.js : user import tool.
+|
+|- list_user.js   : list current users.
 |
 |- test.csv       : sample csv for import user
 ```
@@ -31,6 +33,13 @@ Sample application which create IBM AppID user via API.
 - Run web application for new user test.
 
   - `$ node app`
+
+
+## How to list users
+
+- Run list_user.js.
+
+  - `$ node list_user`
 
 
 ## Copyright
